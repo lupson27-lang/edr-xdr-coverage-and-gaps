@@ -29,7 +29,7 @@ This repository explores what EDR/XDR can and cannot realistically detect, how g
 3. **[coverage_gaps.md](coverage_gaps.md)** — Common detection blind spots and limitations  
 4. **[alert_fatigue_and_signal_quality.md](alert_fatigue_and_signal_quality.md)** — Alert volume, false positives, and signal quality  
 5. **[governance_considerations.md](governance_considerations.md)** — Risk interpretation, reporting, and leadership implications
-6. ## Detection Coverage at a Glance
+## Detection Coverage at a Glance
 
 | Area | Typical Visibility | Common Gaps | Governance Implication |
 |-----|-------------------|-------------|------------------------|
@@ -38,6 +38,9 @@ This repository explores what EDR/XDR can and cannot realistically detect, how g
 | Network Activity | Medium | Encrypted traffic, east-west movement | Needs complementary controls |
 | Cloud & SaaS | Variable | Incomplete integrations | Coverage depends on logging strategy |
 | OT / IoT | Low | Often out of EDR scope | Explicit risk acceptance required |
+
+> **Note:** Absence of alerts does not imply absence of risk. Coverage assumptions must be explicitly governed.
+
 
 > **Note:** Absence of alerts does not imply absence of risk. Coverage assumptions must be explicitly governed.
 
